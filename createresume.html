@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Maker</title>
+    <link rel="stylesheet" href="resumestyle.css">
+    <script src="javascript.js">   </script> 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="nav"> 
+            <div><h1>Person details</h1></div> 
+            <div><button><a href="resumeForm.html">Resume Form</a> 
+            </button>
+                <button><a href="index.html" class="logout">Logout</a> </button>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="main "> 
+            <div class="main-in">
+                <div  id="add-btn"> <button >+ Add Resume </button>  </div> &nbsp;&nbsp;
+                <div><a href="" >  <button><i class="ri-filter-line"> </i> Clear Filter</button>  </a></div>
+            </div>
+            <div class="main-out">
+                <div><i class="ri-search-line"> </i>
+                    <input type="text" id="resume-name" placeholder="Type here" >
+                    <button>Search</button></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="table-box">
+        <table >
+            <tr>
+                <th>Sr No.</th>
+                <th>Profile</th>
+                <th>Full Name</th>
+                <th>E-mail</th>
+                <th>Phone No.</th>
+                <th>Address</th>
+                <th>Job Title</th>
+                <th>Skill</th>
+                <th>Action</th>
+            </tr>
+            
+           
+            <tbody id="table-data"></tbody>
+        </table>
+        
+    </div>
+
+
+    <!--               ..........................................        -->
+
+    <div class="box ">
+        
+        <div class="left-box">
+            <div class="img-box">
+                <img src="124.jpg" id="photo" width="150" height="150">
+                <i class="ri-add-box-line"></i>
+                <input type="file" id="upload-photo">
+                <i class="ri-close-line  close-btn"></i>
+            </div>
+        </div>
+        
+        <div class="right-box">
+         <form id="form-id"> 
+            <div class="input-box">
+                <label for="fname">Full Name <span>*</span></label>
+                <input type="text" required id="fname" >
+            </div>
+            
+            <div class="input-box">
+                <label for="mail">E-mail <span>*</span></label>
+                <input type="email" required id="mail" >
+            </div>
+            <div class="input-box">
+                <label for="pname">Phone No. <span>*</span></label>
+                <input type="tel" required id="pname" >
+            </div>
+            <div class="input-box">
+                <label for="add">Address <span>*</span></label>
+                <input type="text" required id="add" >
+            </div>
+            <div class="input-box">
+                <label for="jobt">Job Title</label>
+                <input type="text"  id="jobt" >
+            </div>
+            <div class="input-box">
+                <label for="Skill">Skill <span>*</span></label>
+                <input type="text" required id="Skill" >
+            </div>
+         </form>  
+            <div class="n-btn">
+                <button class="create-btn">Create</button>
+                <button id="update-btn" >Update</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="javascript.js">   </script>    
+</body>
+</html>

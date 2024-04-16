@@ -1,0 +1,160 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    
+}
+
+header {
+    
+    width: 100%;
+    position: fixed;
+    background-color: yellow;
+    color: #fff;
+    padding: 20px ;
+}
+
+header h1 {
+    float: left;
+    font-size: 40px;
+    color: blue;
+    font-family: Elephant;
+    font-style: italic;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+nav ul li a:hover {
+    
+    color:white;
+    font-size: 20px;
+    border-radius:3px;
+    background-color: red;
+    
+}
+
+.hero {
+    background-image: url('https://wallpapercrafter.com/desktop5/1465602-Cloud-Windows-Bliss-1080P.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+}
+
+.middle{
+    border: 2px solid yellow;
+    width: 30%;
+    height: 120%;
+    border-radius: 5%;
+    box-shadow: 7px 12px 9px 5px black ;
+    overflow:hidden;
+}
+.middle1{
+    border: 0px solid yellow;
+    background-color: blue;
+    height: 40%;
+    
+    border-radius: 0% 0% 0% 0%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.middle1 i{
+    
+    font-size: 100px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2%;
+    margin: 60px;
+    color: black;
+    border: 2px solid black;
+}
+
+.middle2{
+    border: 0px solid yellow;
+    background-color:wheat;
+    height: 80%;
+    border-radius: 0% 0% 0% 0%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c73636;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.middle2 input{
+    font-size: 30px;
+    margin: 2%;
+    border: hidden;
+    border-radius: 2%;
+    padding: 2%;
+}
+.middle2 label{
+    margin-top: 3%;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+
+.middle2 .btn{
+    margin-top: 4%;
+    cursor: pointer;
+    border-radius:4%;
+
+}
+.btn:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+} 
+footer p{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+
+}

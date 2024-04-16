@@ -1,0 +1,108 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+}
+
+header {
+    background-color: yellow;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 40px;
+    color: blue;
+    font-family: Elephant;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+nav ul li a:hover {
+    
+    color:white;
+    font-size: 20px;
+    border-radius:3px;
+    background-color: red;
+    
+}
+
+.hero {
+    background-image: url('https://img.freepik.com/free-vector/realistic-microchip-processor-background_23-2148885300.jpg?w=740&t=st=1712914511~exp=1712915111~hmac=437b2a6042a7a9c1c45cebe365baa84be816f11832da6cc76cd92b9ea84c7b9c');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 485px;
+}
+
+.hero h2 {
+    margin-bottom: 50px;
+    font-size: 100px;
+    text-shadow: 8px 9px 9px rgba(0, 0, 0, 0.5);
+    
+}
+.hero p{
+    font-size:30px;
+    padding-bottom:5%;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #c73636;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+} 
+footer p{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+
+}

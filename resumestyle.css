@@ -1,0 +1,253 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(238, 255, 0);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav button{
+
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+
+.nav a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.main-in{
+    display: flex;
+    padding-right: 5px;
+}
+.main-in button{
+    font-size: 20px;
+    padding: 4px;
+    background-color: blue;
+    border: hidden;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.main-in button:hover{
+    
+    background-color:red;
+    cursor: pointer;
+    
+}
+.main{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-out button{
+    font-size: 20px;
+    padding: 4px;
+    background-color: blue;
+    border: hidden;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+.main-out i, input{
+    font-size: 18px;
+    padding: 4px;
+    margin: 5px;
+    border: 0;
+    
+    border-bottom: 3px solid rgb(82, 7, 221);
+}
+.main-out i{
+    border: hidden;
+    font-size: 30px;
+    color: rgb(82, 7, 221);
+}
+.main-out button:hover{
+    border: 0px;
+    background-color:red;
+    cursor: pointer;
+    
+}
+.table-box{
+    width:100%;
+    padding: 30px;
+}
+.table-box table{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.table-box table tr th{
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 30px 0px 0px;
+    font-family: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-box table tr td{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px 0px 0px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.table-box table tr td button{
+    border: 1px solid blue;
+        font-size: 20px;
+        width: 30%;
+        background-color: blue;
+        color: white;
+    
+}
+/*.....................................................................*/
+
+.box{
+    width: 0%;
+    height: 500px;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    position: fixed;
+    display: flex;
+    border-top: 20px groove rgb(43, 90, 218);
+    opacity: 0;
+    z-index: -1;
+    transition:0.3s ease-in-out;
+}
+/*   to active form*/
+.box.active{
+    width: 70%;
+    opacity:1;
+    z-index: 1;
+}
+
+
+
+.box .close{
+    background-color: wheat;
+}
+
+.box .left-box{
+    width: 30%;
+    background-color:#f2f2f2;
+    border-right: 20px groove rgb(145, 7, 7);
+    height: 500px;
+
+}
+.box .img-box{
+    width: 100%;
+    height: 300px;
+    margin-left: 52px;
+    display: flex;
+    padding: 5%;
+}
+.box .img-box img{
+    
+    border-radius:50%;
+    border:5px solid rgb(32, 255, 106)
+}
+.box .img-box i{
+    font-size: 40px;
+    color: rgb(10, 3, 3);
+    position:absolute;
+    top:25%;
+    left: 22%;
+    
+}
+.box .img-box .ri-close-line{
+    font-size: 25px;
+    color: rgb(10, 3, 3);
+    position:absolute;
+    top:-5%;
+    left: 97%;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    
+}
+.box .img-box input{
+    font-size: 10px;
+    opacity:0;
+    position:absolute;
+    top:26%;
+    left: 20%;
+    
+}
+
+.box .right-box{
+    width: 70%;
+    background-color:#f2f2f2;
+    
+    height: 500px;
+}
+
+.right-box .input-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 3px;
+   
+}
+.right-box .input-box span{
+    color: red;
+}
+.right-box .input-box label{
+    font-size:30px;
+    font-weight: bold;
+}
+.right-box .input-box input{
+    border: hidden;
+    border-radius: 5px;
+    box-shadow:2px 1px 4px;
+    transition: 0.5s;
+    width: 70%;
+}
+.right-box .input-box input:hover{
+    cursor: pointer;
+    
+    border-radius: 5px;
+}
+
+.right-box button{
+    width: 150px;
+    margin: 5%;
+    align-items: center;
+    left: 30%;
+    position: relative;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+.right-box button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}
