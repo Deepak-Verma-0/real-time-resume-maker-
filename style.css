@@ -113,7 +113,7 @@ footer p{
 .footer p{
     font-size: 20px;
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
     position: absolute;
-    left: 38%;
+    left: 33%;
 }
