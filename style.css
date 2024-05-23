@@ -106,3 +106,14 @@ footer p{
     display: flex;
 
 }
+
+.border{
+    border-top: 2px solid rgb(184, 180, 173);
+}
+.footer p{
+    font-size: 20px;
+    display: flex;
+    margin-top: -20px;
+    position: absolute;
+    left: 38%;
+}
