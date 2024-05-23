@@ -104,17 +104,17 @@ footer p{
     justify-content: center;
     align-items:center;
     display: flex;
-
+    margin-bottom: 15px;
 }
 
 .border{
     border-top: 2px solid rgb(184, 180, 173);
-     margin-top: 15px;
+     
 }
 .footer p{
     font-size: 20px;
     display: flex;
-    margin-top: 25px;
+    margin-top: 15px;
     position: absolute;
     left: 33%;
 }
